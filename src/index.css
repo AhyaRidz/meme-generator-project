@@ -1,7 +1,43 @@
 * {
     box-sizing: border-box;
 }
-body{
+body {
     margin: 0;
-    font-family: 'Karla', sans-serif;
+    font-family: "Karla", sans-serif;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/* START of Topnav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    background: rgb(103, 34, 128);
+    background: linear-gradient(90deg, rgba(103, 34, 128, 1) 0%, rgba(166, 38, 211, 1) 100%);
+    color: #fff;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo > img {
+    height: 32px;
+}
+
+.logo > h3 {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.courseTag {
+    font-size: 0.75em;
+    margin: 0;
 }
