@@ -1,9 +1,17 @@
 // ** Import
 // * React
 import React from "react";
-// * Topnav.js
+// * Custom Components
 const Topnav = React.lazy(() => import("./component/Topnav"));
+const Meme = React.lazy(() => import("./component/Meme"));
 
 export default function App() {
-    return <Topnav />;
+    return (
+        <div>
+            <Topnav />
+            <main>
+                <Meme />
+            </main>
+        </div>
+    );
 }

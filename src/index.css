@@ -6,6 +6,10 @@ body {
     font-family: "Karla", sans-serif;
 }
 
+main {
+    margin-top: 36px;
+}
+
 /* ---------------------------------------------------------------------------------------------- */
 
 /* START of Topnav */
@@ -40,4 +44,45 @@ nav {
 .courseTag {
     font-size: 0.75em;
     margin: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/* START of Meme */
+
+.memeGenerator {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+
+    margin: 0px 40px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+input {
+    padding: 12px;
+    border: solid 1px #d5d4d8;
+    border-radius: 5px;
+    font-size: 0.75em;
+    width: 100%;
+}
+
+.memeGenerator button {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background: rgb(103, 34, 128);
+    background: linear-gradient(90deg, rgba(103, 34, 128, 1) 0%, rgba(166, 38, 211, 1) 100%);
+    color: #fff;
+    cursor: pointer;
 }
