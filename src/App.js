@@ -9,9 +9,7 @@ export default function App() {
     return (
         <div>
             <Topnav />
-            <main>
-                <Meme />
-            </main>
+            <Meme />
         </div>
     );
 }

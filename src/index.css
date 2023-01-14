@@ -6,8 +6,12 @@ body {
     font-family: "Karla", sans-serif;
 }
 
+#root {
+    min-height: 100vh;
+}
+
 main {
-    margin-top: 36px;
+    margin: 36px 40px;
 }
 
 /* ---------------------------------------------------------------------------------------------- */
@@ -48,7 +52,7 @@ nav {
 
 /* ---------------------------------------------------------------------------------------------- */
 
-/* START of Meme */
+/* START of memeGenerator in Meme */
 
 .memeGenerator {
     display: flex;
@@ -56,8 +60,6 @@ nav {
     justify-items: center;
     align-items: center;
     gap: 16px;
-
-    margin: 0px 40px;
 }
 
 .inputs {
@@ -85,4 +87,28 @@ input {
     background: linear-gradient(90deg, rgba(103, 34, 128, 1) 0%, rgba(166, 38, 211, 1) 100%);
     color: #fff;
     cursor: pointer;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/* START of memeSect in Meme */
+
+.memeSect,
+.memeContainer {
+    width: 100%;
+}
+
+.memeSect {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-top: 36px;
+}
+
+.meme {
+    display: block;
+    width: 100%;
+
+    object-fit: contain;
 }
