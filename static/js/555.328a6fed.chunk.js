@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmeme_generator_project=self.webpackChunkmeme_generator_project||[]).push([[555],{555:function(e,n,r){r.r(n),r.d(n,{default:function(){return o}});var t=r(791),u=r(184),c=t.lazy((function(){return r.e(967).then(r.bind(r,967))})),i=t.lazy((function(){return r.e(887).then(r.bind(r,887))}));function o(){return(0,u.jsxs)("div",{children:[(0,u.jsx)(c,{}),(0,u.jsx)(i,{})]})}}}]);
+//# sourceMappingURL=555.328a6fed.chunk.js.map
